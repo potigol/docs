@@ -1,6 +1,7 @@
 remote_theme: rundocs/jekyll-rtd-theme
 
-title: Documentação da Linguage Potigol
+title: Linguagem Potigol
+description: Documentação da Linguagem Potigol
 
 readme_index:
   with_frontmatter: true
