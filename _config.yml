@@ -3,5 +3,8 @@ remote_theme: rundocs/jekyll-rtd-theme
 title: Linguagem Potigol
 description: Documentação da Linguagem Potigol
 
+meta:
+  versao: 1.0.0-RC1
+
 readme_index:
   with_frontmatter: true
