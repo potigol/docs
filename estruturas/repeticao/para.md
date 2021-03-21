@@ -1,4 +1,4 @@
-# Repetição: Para
+# Para
 ````scala
 para i de 1 até 10 faça            # escreve os números de 1 a 10
   escreva i
