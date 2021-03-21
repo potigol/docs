@@ -19,27 +19,27 @@ c: Caractere = 'z'
 
 ## Operações Aritméticas
 
-Soma
+Soma (`+`)
 ```
 5 + 3         # 8
 ```
 
-Subtração
+Subtração (`-`)
 ```
 5 - 3         # 2
 ```
 
-Multiplicação
+Multiplicação (`*`)
 ```
 5 * 3         # 15
 ```
 
-Divisão Real
+Divisão Real (`/`)
 ```
 5 / 3         # 1.66667
 ```
 
-Divisão Inteira
+Divisão Inteira (`div`)
 ```
 5 div 3       # 1
 ```
@@ -49,28 +49,38 @@ Resto da divisão
 5 mod 3       # 2, o resto da divisão de 5 por 3
 ```
 
-## Operações Lógicas e Relacionais
+## Operações Lógicas
 
 Valores lógicos (booleanos): `verdadeiro` e `falso`
 
-`e`-lógico
-```
+### `e` lógico
+```python
 falso e falso            # falso
 falso e verdadeiro       # falso
 verdadeiro e falso       # falso
 verdadeiro e verdadeiro  # verdadeiro
 ```
 
-`ou`-lógico
+Exemplo
+```python
+nota_válida = (nota >= 0) e (nota <= 10)
 ```
+
+`ou` lógico
+```python
 falso ou falso            # falso
 falso ou verdadeiro       # verdadeiro
 verdadeiro ou falso       # verdadeiro
 verdadeiro ou verdadeiro  # verdadeiro
 ```
 
-`não`-lógico
+Exemplo
+```python
+nota_inválida = (nota < 0) ou (nota > 10)
 ```
+
+`não` lógico
+```python
 não falso            # verdadeiro
 não verdadeiro       # falso
 ```
@@ -84,43 +94,42 @@ não verdadeiro       # falso
 | verdadeiro | verdadeiro | verdadeiro | verdadeiro | falso | falso |
 
 
-## Operações de comparação
+## Operações de comparação (relacionais)
 
-2 == 3         # falso
 Igualdade (`==`)
-```
+```python
 2 == 2         # verdadeiro
 ```
 
 Desigualdade (`<>`)
-```
+```ruby
 2 <> 3         # verdadeiro
 2 <> 2         # falso
 ```
 
 Menor (`<`)
-```
+```python
 2 < 3          # verdadeiro
 2 < 2          # falso
 3 < 2          # falso
 ```
 
 Menor ou igual (`<=`)
-```
+```python
 2 <= 3         # verdadeiro
 2 <= 2         # verdadeiro
 3 <= 2         # falso
 ```
 
 Maior (`>`)
-```
+```python
 2 > 3          # falso
 2 > 2          # falso
 3 > 2          # verdadeiro
 ```
 
 Maior ou igual (`>=`)
-```
+```python
 2 >= 3         # falso
 2 >= 2         # verdadeiro
 3 >= 2         # verdadeiro
