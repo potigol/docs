@@ -9,6 +9,8 @@
 | Caractere | `'a'`, `'4'`, `'&'`, ... |
 
 
+Exemplo
+
 ```python
 a: Inteiro = 10
 r: Real = 3.14
@@ -20,32 +22,32 @@ c: Caractere = 'z'
 ## Operações Aritméticas
 
 Soma (`+`)
-```
+```python
 5 + 3         # 8
 ```
 
 Subtração (`-`)
-```
+```python
 5 - 3         # 2
 ```
 
 Multiplicação (`*`)
-```
+```python
 5 * 3         # 15
 ```
 
 Divisão Real (`/`)
-```
+```python
 5 / 3         # 1.66667
 ```
 
 Divisão Inteira (`div`)
-```
+```python
 5 div 3       # 1
 ```
 
 Resto da divisão
-```
+```python
 5 mod 3       # 2, o resto da divisão de 5 por 3
 ```
 
@@ -66,7 +68,7 @@ Exemplo
 nota_válida = (nota >= 0) e (nota <= 10)
 ```
 
-`ou` lógico
+### `ou` lógico
 ```python
 falso ou falso            # falso
 falso ou verdadeiro       # verdadeiro
@@ -79,7 +81,7 @@ Exemplo
 nota_inválida = (nota < 0) ou (nota > 10)
 ```
 
-`não` lógico
+### `não` lógico
 ```python
 não falso            # verdadeiro
 não verdadeiro       # falso
@@ -96,39 +98,39 @@ não verdadeiro       # falso
 
 ## Operações de comparação (relacionais)
 
-Igualdade (`==`)
+### Igualdade (`==`)
 ```python
 2 == 2         # verdadeiro
 ```
 
-Desigualdade (`<>`)
+### Desigualdade (`<>`)
 ```ruby
 2 <> 3         # verdadeiro
 2 <> 2         # falso
 ```
 
-Menor (`<`)
+### Menor (`<`)
 ```python
 2 < 3          # verdadeiro
 2 < 2          # falso
 3 < 2          # falso
 ```
 
-Menor ou igual (`<=`)
+### Menor ou igual (`<=`)
 ```python
 2 <= 3         # verdadeiro
 2 <= 2         # verdadeiro
 3 <= 2         # falso
 ```
 
-Maior (`>`)
+### Maior (`>`)
 ```python
 2 > 3          # falso
 2 > 2          # falso
 3 > 2          # verdadeiro
 ```
 
-Maior ou igual (`>=`)
+### Maior ou igual (`>=`)
 ```python
 2 >= 3         # falso
 2 >= 2         # verdadeiro
