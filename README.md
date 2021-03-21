@@ -1,6 +1,6 @@
 # Documentação da Linguagem Potigol
 
-[(https://img.shields.io/badge/Versão-1.0-green)](https://github.com/potigol/Potigol/releases)
+[![Versão](https://img.shields.io/badge/Versão-1.0-green)](https://github.com/potigol/Potigol/releases)
 
 ```tip
 Potigol é ...
