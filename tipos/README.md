@@ -1,5 +1,5 @@
 ---
-sort: 80
+sort: 65
 ---
 
 # Tipos (Classes e Registros)
