@@ -1,3 +1,7 @@
+---
+sort: 80 
+---
+
 # Programação Funcional
 
 ### Valores (constantes)

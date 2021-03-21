@@ -1,3 +1,7 @@
+---
+sort: 10
+---
+
 # Instalação
 
 - Verifique se Java está instalado digitando `java -version`. Se der uma mensagem de erro é preciso fazer o download em https://www.java.com/pt_BR/download e instalar.
