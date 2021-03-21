@@ -1,5 +1,7 @@
 # Documentação da Linguagem Potigol
 
+(https://img.shields.io/badge/Versão-1.0-green)](https://github.com/potigol/Potigol/releases)
+
 ```tip
 Potigol é ...
  Uma linguagem moderna (funcional) para aprender a programar.
@@ -21,6 +23,9 @@ tipo Ola
   nome: Texto
   saudação() = "Olá {nome}!"
 fim
+
+olamundo = Ola("Mundo")
+escreva olamundo.saudação
 ```
 
 ## Características
