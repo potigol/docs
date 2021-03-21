@@ -1,3 +1,7 @@
+---
+sort: 90 
+---
+
 # Programação Orientada a Objetos
 
 lasses são definidas através de tipos. Os tipos são compostos por atributos e métodos (funções). Todos elementos de um tipo são públicos, mas não é possível alterar diretamente um atributo.

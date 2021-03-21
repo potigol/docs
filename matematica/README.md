@@ -1,3 +1,8 @@
+---
+sort: 70 
+---
+
+
 # Funções Matemáticas
 
 ````ruby
