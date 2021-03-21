@@ -1,6 +1,6 @@
 # Documentação da Linguagem Potigol
 
-(https://img.shields.io/badge/Versão-1.0-green)](https://github.com/potigol/Potigol/releases)
+[(https://img.shields.io/badge/Versão-1.0-green)](https://github.com/potigol/Potigol/releases)
 
 ```tip
 Potigol é ...
@@ -34,7 +34,6 @@ escreva olamundo.saudação
  * Palavras-chave em português
  * Multiparadigma
  * Estímulo ao paradigma funcional: valores imutáveis, casamento de padrões, funções como valores
-
 
 
 ## Exemplos
