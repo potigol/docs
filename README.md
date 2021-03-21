@@ -1,13 +1,27 @@
 # Documentação da Linguagem Potigol
 
 ```tip
-Potigol é ... 
+Potigol é ...
  Uma linguagem moderna (funcional) para aprender a programar.
 ```
 
 Faça o *[Download](https://github.com/potigol/Potigol/releases)* e veja como *[Instalar](https://github.com/potigol/Potigol#como-usar)*
 
 Experimente online: [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#snapshot/635c2c25-4a9a-4f97-a258-594be811ef1b)
+
+```python
+# Imperativo
+escreva "Olá Mundo!"
+
+# Funcional
+((a: Texto) => escreva "Ola {a}!")("Mundo")
+
+# Orientado a Objetos
+tipo Ola
+  nome: Texto
+  saudação() = "Olá {nome}!"
+fim
+```
 
 ## Características
  * Projetada para ser usada por alunos iniciantes
