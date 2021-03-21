@@ -1,8 +1,8 @@
 # Documentação da Linguagem Potigol
 
 ```tip
-> Potigol é ...
-> Uma linguagem moderna (funcional) para aprender a programar.
+Potigol é ... 
+ Uma linguagem moderna (funcional) para aprender a programar.
 ```
 
 Faça o *[Download](https://github.com/potigol/Potigol/releases)* e veja como *[Instalar](https://github.com/potigol/Potigol#como-usar)*
