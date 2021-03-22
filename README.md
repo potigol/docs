@@ -35,6 +35,7 @@ escreva olamundo.saudação
  * Multiparadigma
  * Estímulo ao paradigma funcional: valores imutáveis, casamento de padrões, funções como valores
 
+{% gist 602298e20836e900c5056e55d72d33a6 %}
 
 ## Exemplos
 
