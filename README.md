@@ -2,14 +2,14 @@
 
 [![Versão](https://img.shields.io/badge/Versão-1.0-green)](https://github.com/potigol/Potigol/releases)
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/potigol/gitpod)
+
 ```tip
 Potigol é ...
  Uma linguagem moderna (funcional) para aprender a programar.
 ```
 
 Faça o *[Download](https://github.com/potigol/Potigol/releases)* e veja como *[Instalar](https://github.com/potigol/Potigol#como-usar)*
-
-Experimente online: [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#snapshot/635c2c25-4a9a-4f97-a258-594be811ef1b)
 
 ```python
 # Imperativo
