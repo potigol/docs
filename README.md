@@ -35,8 +35,6 @@ escreva olamundo.saudação
  * Multiparadigma
  * Estímulo ao paradigma funcional: valores imutáveis, casamento de padrões, funções como valores
 
-{% gist 602298e20836e900c5056e55d72d33a6 %}
-
 ## Exemplos
 
  - [Mais de 500 problemas de programação resolvidos na linguagem Potigol](https://potigol.github.io/uoj-potigol/)
