@@ -35,6 +35,19 @@ escreva olamundo.saudação
  * Multiparadigma
  * Estímulo ao paradigma funcional: valores imutáveis, casamento de padrões, funções como valores
 
+## Topicos
+
+ * [Instalação](instalacao)
+ * [Básico](basico) entrada, saída, tipos básicos, variáveis
+ * [Números e Textos](numeros_textos)
+ * [Estruturas de Decisao](estruturas/decisao) se, escolha
+ * [Estruturas de Repetição](estruturas/repeticao) para, enquanto
+ * [Funções](funcoes)
+ * [Tipos Compostos](lista_tupla) listas, tuplas
+ * [Classes](tipos)
+ * [Programação Funcional](funcional) funções de alta ordem, imutabilidade, casamento de padrões
+ * [Programação Orientada a Objetos](objetos) tipos (classes), tipos abstratos (classes abstratas e interfaces), atributos, métodos, herança  
+
 ## Exemplos
 
  - [Mais de 500 problemas de programação resolvidos na linguagem Potigol](https://potigol.github.io/uoj-potigol/)
