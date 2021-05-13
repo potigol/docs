@@ -1,5 +1,11 @@
 # Tipos Básicos
 
+Os tipos básicos são `Inteiro`, `Real`, `Texto`, `Lógico` e `Caractere`.
+
+```note
+Note que os tipos começam com letras maiúsculas.
+```
+
 | Tipo | Valores |
 | --- | --- |
 | Inteiro | `-4`, `0`, `5`, ... |

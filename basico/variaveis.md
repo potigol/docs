@@ -21,6 +21,8 @@ Note que essas variáveis podem receber novas atribuições mas o tipo não muda
 Se na declaração a variável recebe um inteiro, seu tipo será sempre inteiro.
 ```
 
+O nome das variáveis deve começar com uma letra seguida de letras, números e '_'. Nomes válidos: `idade`, `endereço`, `nota1` e `salário_bruto`. Nome inválidos: `a idade` e `1nota`. Apesar de não ser uma imposição, os nomes das variáveis geralmente começam com uma letra minúscula.
+
 ## Atribuição paralela
 
 As atribuições podem ser realizadas simultaneamente.
