@@ -52,7 +52,7 @@ Divisão Inteira (`div`)
 5 div 3       # 1
 ```
 
-Resto da divisão
+Resto da divisão (`mod`)
 ```python
 5 mod 3       # 2, o resto da divisão de 5 por 3
 ```
