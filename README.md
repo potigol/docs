@@ -3,6 +3,7 @@
 [![Versão](https://img.shields.io/badge/Versão-1.0-green)](https://github.com/potigol/Potigol/releases)
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/potigol/gitpod)
+[![IFRN](logo_ifrn_40.png)](https://www.ifrn.edu.br)
 
 ```tip
 Potigol é ...
