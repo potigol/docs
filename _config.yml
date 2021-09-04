@@ -12,7 +12,7 @@ readme_index:
 translate:
   # shortcodes
   danger: Perigo
-  #note:
+  note: Observe
   tip: Dica
   warning: Atenção
   # 404
@@ -28,3 +28,4 @@ translate:
   #search_results_not_found:
   next: Próximo
   previous: Anterior
+  prev: Anterior
