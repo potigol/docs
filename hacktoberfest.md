@@ -1,6 +1,6 @@
 # Hacktoberfest 2021
 
-<a href="https://hacktoberfest.digitalocean.com"><img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" width=500 align="right"></a>
+<a href="https://hacktoberfest.digitalocean.com"><img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" width="50%" align="right"></a>
 
 
 Participe do [Hacktoberfest 2021](https://hacktoberfest.digitalocean.com/)
