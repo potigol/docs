@@ -25,3 +25,20 @@ Cada problema resolvido gera um Pull Request.
 - [Matemática](https://github.com/potigol/uoj-potigol/issues/51)
 - [Olimpíada Brasileira de Informática](https://github.com/potigol/uoj-potigol/issues/50)
 - [Maratona de Programação - SBC](https://github.com/potigol/uoj-potigol/issues/32)
+
+
+## Potigol Web IDE
+
+O repositório https://github.com/potigol/gitpod já vem configurado para ser um ambiente de programação na web para ser usado pelo Gitpod ou CodeSpace.
+
+Oportunidade de contribuição:
+
+ - Automatizar a execução de programas em Potigol no VSCode (https://github.com/potigol/gitpod/issues/3)
+
+## Plugins para o VSCode e o Atom
+
+Os plugins permitem fazer o highlight do código Potigol no VSCode (CodeSpace) e no Atom. A versão atual precisa ser melhorada para reconhecer melhor a sintaxe da linguagem. 
+
+ - [VSCode]https://github.com/potigol/potigol-language
+ - [Atom]https://github.com/potigol/language-potigol
+
