@@ -28,6 +28,11 @@ Cada problema resolvido gera um Pull Request.
 - [Olimpíada Brasileira de Informática](https://github.com/potigol/uoj-potigol/issues/50)
 - [Maratona de Programação - SBC](https://github.com/potigol/uoj-potigol/issues/32)
 
+## Melhorar a documentação da linguagem
+
+A documentação precisa de várias melhorias de contéudo, formatação, exemplos etc. Proponha uma melhoria e faça um pull request. 
+
+https://github.com/potigol/docs/issues/2#issue-1025666903
 
 ## Potigol Web IDE
 
