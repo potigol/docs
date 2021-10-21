@@ -10,12 +10,12 @@ Participe do [Hacktoberfest 2021](https://hacktoberfest.digitalocean.com/)
 
 Veja algumas formas de completar o desafio Hacktoberfest 2021 participando dos projetos da [Linguagem Potigol](https://potigol.github.io).
 
-> Dúvidas? Use o servidor do Discord: https://discord.gg/6BW98S8X7Q
+> Dúvidas? Use o servidor do [Discord](https://discord.gg/6BW98S8X7Q)
 
 ## Problemas do URI Online Judge
 
 O repositório [potigol/uoj-potigol](https://potigol.github.io/uoj-potigol) contém soluções dos problemas de programação do [URI Online Judge](https://urionlinejudge.com.br) usando a Linguagem Potigol.
-Já são ~~quase~~ 600 dos mais de 2000 problemas resolvidos usando a linguagem Potigol. 
+Já são ~~quase~~ mais de 600 problemas resolvidos usando a linguagem Potigol. 
 
 Participe enviando soluções para problemas ainda não resolvidos ou melhorando uma solução já existente.
 Cada problema resolvido gera um Pull Request.
