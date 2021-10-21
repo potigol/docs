@@ -15,7 +15,7 @@ Veja algumas formas de completar o desafio Hacktoberfest 2021 participando dos p
 ## Problemas do URI Online Judge
 
 O repositório [potigol/uoj-potigol](https://potigol.github.io/uoj-potigol) contém soluções dos problemas de programação do [URI Online Judge](https://urionlinejudge.com.br) usando a Linguagem Potigol.
-Já são ~~quase~~ mais de 600 problemas resolvidos usando a linguagem Potigol. 
+Já são mais de 600 problemas resolvidos usando a linguagem Potigol. 
 
 Participe enviando soluções para problemas ainda não resolvidos ou melhorando uma solução já existente.
 Cada problema resolvido gera um Pull Request.
