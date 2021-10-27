@@ -12,9 +12,9 @@ Veja algumas formas de completar o desafio Hacktoberfest 2021 participando dos p
 
 > Dúvidas? Use o servidor do [Discord](https://discord.gg/6BW98S8X7Q)
 
-## Problemas do URI Online Judge
+## Problemas do Beecrowd (URI Online Judge)
 
-O repositório [potigol/uoj-potigol](https://potigol.github.io/uoj-potigol) contém soluções dos problemas de programação do [URI Online Judge](https://urionlinejudge.com.br) usando a Linguagem Potigol.
+O repositório [potigol/uoj-potigol](https://potigol.github.io/uoj-potigol) contém soluções dos problemas de programação do [Beecrowd (URI Online Judge)](https://beecrowd.com.br) usando a Linguagem Potigol.
 Já são mais de 600 problemas resolvidos usando a linguagem Potigol. 
 
 Participe enviando soluções para problemas ainda não resolvidos ou melhorando uma solução já existente.
@@ -32,20 +32,20 @@ Cada problema resolvido gera um Pull Request.
 
 A documentação precisa de várias melhorias de contéudo, formatação, exemplos etc. Proponha uma melhoria e faça um pull request. 
 
-https://github.com/potigol/docs/issues/2#issue-1025666903
+[https://github.com/potigol/docs/issues/2#issue-1025666903](https://github.com/potigol/docs/issues/2#issue-1025666903)
 
 ## Potigol Web IDE
 
-O repositório https://github.com/potigol/gitpod já vem configurado para ser um ambiente de programação na web para ser usado pelo Gitpod ou CodeSpace.
+O repositório [https://github.com/potigol/gitpod](https://github.com/potigol/gitpod) já vem configurado para ser um ambiente de programação na web para ser usado pelo Gitpod ou CodeSpace.
 
 Oportunidade de contribuição:
 
- - Automatizar a execução de programas em Potigol no VSCode (https://github.com/potigol/gitpod/issues/3)
+ - Automatizar a execução de programas em Potigol no VSCode [https://github.com/potigol/gitpod/issues/3](https://github.com/potigol/gitpod/issues/3)
 
 ## Plugins para o VSCode e o Atom
 
 Os plugins permitem fazer o highlight do código Potigol no VSCode (CodeSpace) e no Atom. A versão atual precisa ser melhorada para reconhecer melhor a sintaxe da linguagem. 
 
- - [VSCode]https://github.com/potigol/potigol-language
- - [Atom]https://github.com/potigol/language-potigol
+ - [VSCode](https://github.com/potigol/potigol-language)
+ - [Atom](https://github.com/potigol/language-potigol)
 
