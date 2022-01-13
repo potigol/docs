@@ -57,7 +57,7 @@ escreva olamundo.saudação
 
 ## Exemplos
 
- - [Mais de 500 problemas de programação resolvidos na linguagem Potigol](https://potigol.github.io/uoj-potigol/)
+ - [Mais de 600 problemas de programação resolvidos na linguagem Potigol](https://potigol.github.io/uoj-potigol/)
 
 ## Contato
 
