@@ -57,6 +57,11 @@ Resto da divisão (`mod`)
 5 mod 3       # 2, o resto da divisão de 5 por 3
 ```
 
+Exponenciação (`^`)
+```python
+5 ^ 2       # 25.0
+```
+
 ## Operações Lógicas
 
 Valores lógicos (booleanos): `verdadeiro` e `falso`
@@ -96,6 +101,7 @@ não verdadeiro       # falso
 ### Tabela Verdade
 
 | A | B | A `e` B | A `ou` B | `não` A | `não` B |
+| --- | --- | --- | --- | --- | --- | 
 | falso | falso | falso | falso | verdadeiro | verdadeiro |
 | falso | verdadeiro | falso | verdadeiro | verdadeiro | falso |
 | verdeiro | falso | falso | verdadeiro | falso | verdadeiro |
