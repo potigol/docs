@@ -47,6 +47,11 @@ Divisão Real (`/`)
 5 / 3         # 1.66667
 ```
 
+Potência (`^`)
+```python
+2 ^ 10        # 1024
+```
+
 Divisão Inteira (`div`)
 ```python
 5 div 3       # 1
