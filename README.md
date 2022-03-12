@@ -11,12 +11,19 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/potigol/gitpod)
 [![IFRN](logo_ifrn_40.png)](https://www.ifrn.edu.br)
 
+
 ```tip
 Potigol é ...
  Uma linguagem moderna (funcional) para aprender a programar.
 ```
 
 Faça o *[Download](https://github.com/potigol/Potigol/releases)* e veja como *[Instalar](https://github.com/potigol/Potigol#como-usar)*
+
+## Exemplos
+
+ - [Mais de 600 problemas de programação resolvidos na linguagem Potigol](https://potigol.github.io/beecrowd/)
+
+
 
 ```python
 # Imperativo
@@ -54,10 +61,6 @@ escreva olamundo.saudação
  * [Classes](tipos)
  * [Programação Funcional](funcional) funções de alta ordem, imutabilidade, casamento de padrões
  * [Programação Orientada a Objetos](objetos) tipos (classes), tipos abstratos (classes abstratas e interfaces), atributos, métodos, herança  
-
-## Exemplos
-
- - [Mais de 600 problemas de programação resolvidos na linguagem Potigol](https://potigol.github.io/uoj-potigol/)
 
 ## Contato
 
