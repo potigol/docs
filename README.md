@@ -32,7 +32,7 @@ faça o *[Download](https://github.com/potigol/Potigol/releases)* e veja como *[
 escreva "Olá Mundo!"
 
 # Funcional
-ola(nome: Texto) = "Ola {nome}!"
+ola = (nome: Texto) => "Ola {nome}!"
 escreva ola("Mundo")
 
 # Orientado a Objetos
