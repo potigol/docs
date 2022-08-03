@@ -32,7 +32,7 @@ faça o *[Download](https://github.com/potigol/Potigol/releases)* e veja como *[
 escreva "Olá Mundo!"
 
 # Funcional
-ola(a: Texto) = "Ola {a}!"
+ola(nome: Texto) = "Ola {nome}!"
 escreva ola("Mundo")
 
 # Orientado a Objetos
@@ -48,7 +48,7 @@ escreva olamundo.saudação
 ```python
 soma(a, b: Inteiro) = a + b
 
-escreva "Digite dois números"
+escreva "Digite dois números:"
 x, y = leia_inteiro
 escreva "{x} + {y} = {soma(x, y)}"
 ```
