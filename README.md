@@ -8,16 +8,19 @@
 
 <!--a href="hacktoberfest"><img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" width=250></a-->
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/potigol/gitpod)
-[![IFRN](logo_ifrn_40.png)](https://www.ifrn.edu.br)
+<!-- [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/potigol/gitpod) -->
 
+<!-- [![IFRN](logo_ifrn_40.png)](https://www.ifrn.edu.br) -->
 
 ```tip
 Potigol é ...
  Uma linguagem moderna (funcional) para aprender a programar.
 ```
 
-Faça o *[Download](https://github.com/potigol/Potigol/releases)* e veja como *[Instalar](https://github.com/potigol/Potigol#como-usar)*
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/potigol/potigol-image)
+
+:point_up: Quer testar? É só clicar no botão e começar a programar. Ou 
+faça o *[Download](https://github.com/potigol/Potigol/releases)* e veja como *[Instalar](https://github.com/potigol/Potigol#como-usar)*
 
 ## Exemplos
 
@@ -43,9 +46,11 @@ escreva olamundo.saudação
 ```
 
 ```python
-frutas = ["maçã", "banana", "morango"]
-escreva frutas.ordene                                # ["banana", "maçã", "morango"]
-escreva frutas.selecione(fruta => fruta > "goiaba")  # ["maçã", "morango"]
+soma(a, b: Inteiro) = a + b
+
+escreva "Digite dois números"
+x, y = leia_inteiro
+escreva "{x} + {y} = {soma(x, y)}"
 ```
 
 ## Características
