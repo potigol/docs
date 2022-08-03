@@ -29,7 +29,8 @@ Faça o *[Download](https://github.com/potigol/Potigol/releases)* e veja como *[
 escreva "Olá Mundo!"
 
 # Funcional
-((a: Texto) => escreva "Ola {a}!")("Mundo")
+ola(a: Texto) = escreva "Ola {a}!"
+ola("Mundo")
 
 # Orientado a Objetos
 tipo Ola
