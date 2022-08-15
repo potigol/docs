@@ -27,7 +27,7 @@ faça o *[Download](https://github.com/potigol/Potigol/releases)* e veja como *[
  - [Mais de 700 problemas de programação resolvidos na linguagem Potigol](https://potigol.github.io/beecrowd/)
 
 
-```python
+```portugol
 # Imperativo
 escreva "Olá Mundo!"
 
@@ -45,7 +45,7 @@ olamundo = Ola("Mundo")
 escreva olamundo.saudação
 ```
 
-```python
+```portugol
 soma(a, b: Inteiro) = a + b
 
 escreva "Digite dois números:"
