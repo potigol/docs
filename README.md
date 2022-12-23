@@ -23,8 +23,11 @@ Potigol é ...
 faça o *[Download](https://github.com/potigol/Potigol/releases)* e veja como *[Instalar](https://github.com/potigol/Potigol#como-usar)*
 
 ## Exemplos
+[![Beecrowd](https://www.beecrowd.com.br/judge/img/5.0/logo-beecrowd.png)](https://potigol.github.io/beecrowd/)
 
- - [Mais de 700 problemas de programação resolvidos na linguagem Potigol](https://potigol.github.io/beecrowd/)
+[![Soluções](https://img.shields.io/badge/Problemas%20Resolvidos-737-blue)]([https://github.com/potigol/beecrowd/commits/master](https://potigol.github.io/beecrowd/))
+
+ - [Mais de 700 problemas de programação resolvidos na linguagem Potigol](https://potigol.github.io/beecrowd/) 
 
 
 ```portugol
