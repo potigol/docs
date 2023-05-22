@@ -6,15 +6,45 @@ As instruções abaixo ajudam a instalar o Potigol.
 
 ## Pré-requisitos
 - [Java Runtime Enviroment](https://www.java.com/pt-BR/download/)
+- [Unzip](https://linux.die.net/man/1/unzip)
 
 ## Instalação
 
 - Verifique se o Java foi instalado corretamente digitando `java -version` no Terminal.
-### O que é esperado
+### 🖥️ comportamento esperado
 
-- Se der uma mensagem de erro é preciso fazer o download em https://www.java.com/pt_BR/download e instalar.
-- Baixe a versão mais recente do Potigol https://github.com/potigol/Potigol/releases/latest
-- Descompacte o arquivo
+Espera-se que o Terminal retorne a versão do JDK instalada no sistema:
+
+```terminal
+openjdk version "17.0.7" 2023-04-18 LTS
+OpenJDK Runtime Environment Microsoft-7626293 (build 17.0.7+7-LTS)
+OpenJDK 64-Bit Server VM Microsoft-7626293 (build 17.0.7+7-LTS, mixed mode, sharing)
+```
+
+Caso não tenha recebido algo parecido, verifique se o JDK foi instalado corretamente e reinstale-o, caso necessário.
+
+### Download do Potigol
+Baixe a [versão mais recente do Potigol](https://github.com/potigol/Potigol/releases/latest).
+
+Descompacte o arquivo recém-baixado digitando o seguinte comando no Terminal:
+
+```terminal
+unzip potigol.zip
+```
+
+### 🖥️ comportamento esperado
+```terminal
+Archive:  potigol.zip
+  inflating: configpotigol.bat       
+  inflating: exec.bat                
+  inflating: exec.sh                 
+  inflating: potigol.bat             
+  inflating: potigol.css             
+  inflating: potigol.ico             
+  inflating: potigol.jar             
+  inflating: potigol.png    
+```
+
 - Para executar o Editor de Código digite no prompt do terminal
 
 ````java -jar epotigol.jar````
