@@ -2,9 +2,17 @@
 sort: 10
 ---
 
-# Instalação
+As instruções abaixo ajudam a instalar o Potigol.
 
-- Verifique se Java está instalado digitando `java -version`. Se der uma mensagem de erro é preciso fazer o download em https://www.java.com/pt_BR/download e instalar.
+## Pré-requisitos
+- [Java Runtime Enviroment](https://www.java.com/pt-BR/download/)
+
+## Instalação
+
+- Verifique se o Java foi instalado corretamente digitando `java -version` no Terminal.
+### O que é esperado
+
+- Se der uma mensagem de erro é preciso fazer o download em https://www.java.com/pt_BR/download e instalar.
 - Baixe a versão mais recente do Potigol https://github.com/potigol/Potigol/releases/latest
 - Descompacte o arquivo
 - Para executar o Editor de Código digite no prompt do terminal
