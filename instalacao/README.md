@@ -11,7 +11,7 @@ As instruções abaixo ajudam a instalar o Potigol.
 ## Instalação
 
 - Verifique se o Java foi instalado corretamente digitando `java -version` no Terminal.
-### 🖥️ comportamento esperado
+#### 🖥️ comportamento esperado
 
 Espera-se que o Terminal retorne a versão do JDK instalada no sistema:
 
@@ -32,7 +32,7 @@ Descompacte o arquivo recém-baixado digitando o seguinte comando no Terminal:
 unzip potigol.zip
 ```
 
-### 🖥️ comportamento esperado
+#### 🖥️ comportamento esperado
 ```terminal
 Archive:  potigol.zip
   inflating: configpotigol.bat       
@@ -45,14 +45,33 @@ Archive:  potigol.zip
   inflating: potigol.png    
 ```
 
-- Para executar o Editor de Código digite no prompt do terminal
+## Escrevendo em Poti 🦐
+Para executar o Editor de Código Potigol, digite no Terminal:
 
-````java -jar epotigol.jar````
+```terminal
+java -jar epotigol.jar
+```
 
 - No Windows basta executar `epotigol.bat`.
 
-- Para executar um programa em Potigol digite no prompt do terminal
+#### Teste dos coomedores de camarão
 
-````java -jar potigol.jar arquivo.poti````
+Para verificar se tudo correu bem até aqui, considere criar um arquivo chamado `olamundo.poti` e adicionar o seguinte conteúdo a ele:
+
+```potigol
+escreva "Olá, mundo! 🦐"
+```
+
+Este é um pequeno programa Potigol. Para executá-lo, digite o seguinte comando no Terminal:
+
+```terminal
+java -jar potigol.jar arquivo.poti
+```
 
 - No Windows basta usar `potigol arquivo.poti`.
+
+
+#### 🖥️ comportamento esperado
+```terminal
+Olá, mundo! 🦐
+```
