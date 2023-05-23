@@ -2,11 +2,14 @@
 sort: 10
 ---
 
-As instruções abaixo ajudam a instalar o Potigol.
+As instruções a seguir permitem que você instale o Potigol localmente. Ao final, você deve conseguir escrever códigos Potigol e executá-los localmente.
 
 ## Pré-requisitos
-- [Java Runtime Enviroment](https://www.java.com/pt-BR/download/)
-- [Unzip](https://linux.die.net/man/1/unzip)
+
+Para que o Potigol funcione corretamente, temos antes que instalar algumas coisas.
+
+- [Java Runtime Enviroment](https://www.java.com/pt-BR/download/) [descrever porque o Java é necessário]
+- [Unzip](https://linux.die.net/man/1/unzip): quando o download do Potigol é feito, o arquivo baixado é zipado. Usaremos o Unzip na linha de comandos para descompactá-lo.
 
 ## Instalação
 
@@ -54,7 +57,7 @@ java -jar epotigol.jar
 
 - No Windows basta executar `epotigol.bat`.
 
-#### Teste dos coomedores de camarão
+#### Teste de execução
 
 Para verificar se tudo correu bem até aqui, considere criar um arquivo chamado `olamundo.poti` e adicionar o seguinte conteúdo a ele:
 
@@ -65,10 +68,10 @@ escreva "Olá, mundo! 🦐"
 Este é um pequeno programa Potigol. Para executá-lo, digite o seguinte comando no Terminal:
 
 ```terminal
-java -jar potigol.jar arquivo.poti
+java -jar potigol.jar olamundo.poti
 ```
 
-- No Windows basta usar `potigol arquivo.poti`.
+- No Windows basta usar `potigol olamundo.poti`.
 
 
 #### 🖥️ comportamento esperado
