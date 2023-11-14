@@ -6,7 +6,7 @@ Lendo valores do teclado e escrevendo na tela.
 
 Números e Textos podem ser lidos do teclado usando as intruções:
  - `leia_inteiro` para ler um número inteiro
- - `leia_real` para ler um número real (float)
+ - `leia_real` para ler um número real
  - `leia_texto` para ler um texto
 
 ````scala
@@ -34,12 +34,13 @@ x, y, z = leia_inteiro
 
 ## Instruções para ler listas de valores
 
-- `leia_inteiros(n)` para ler `n` números inteiro, um por linha
-- `leia_reais(n)` para ler `n` números reais, um por linha
+- `leia_inteiros(n)` para ler `n` números inteiro, não necessariamente na mesma linha
+- `leia_reais(n)` para ler `n` números reais, não necessariamente na mesma linha
 - `leia_textos(n)` para ler `n` linhas de texto
 
 ````scala
-números = leia_inteiros(5)      # lê um lista de 5 números inteiros, um por linha
+números = leia_inteiros(5)      # lê um lista de 5 números inteiros
+a, b, c = leia_inteiros(2)      # lê três listas de 2 inteiros cada
 ````
 
 - `leia_inteiros(s)` para ler vários números inteiros em uma mesma linha usando `s` como separador
