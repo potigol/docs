@@ -32,8 +32,8 @@ para cor em cores faça
 fim
 
 # Para gerando uma lista
-numeros = para i de 1 até 5 gere i fim             # [1, 2, 3, 4, 5]
+numeros = para i de 1 até 5 gere i fim                 # [1, 2, 3, 4, 5]
 
-pares = para i de 1 até 10 se i mod 2 == 0 gere i  # [2, 4, 5, 6, 8, 10]
+pares = para i de 1 até 10 se i mod 2 == 0 gere i fim  # [2, 4, 5, 6, 8, 10]
 
 ````
