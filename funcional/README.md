@@ -5,7 +5,7 @@ sort: 80
 # Programação Funcional
 
 ### Valores (constantes)
-````ruby
+````portugol
 nome = "potigol"
 ````
 
@@ -30,7 +30,7 @@ escreva x(4)
 ````
 
 ### "list comprehension"
-````ruby
+````portugol
 y = para i de 1 até 10,
          j de i + 1 até 10 gere
            i+j
@@ -54,7 +54,7 @@ escreva suc(4)
 ````
 
 ### Recursão em cauda otimizada
-````scala
+````portugol
 h(a, cont: Inteiro): Inteiro = escolha a
   caso 0 => cont
   caso n => h(a-1, cont+1)
@@ -63,7 +63,7 @@ escreva h(1000,0)
 ````
 
 ### Casamento de Padrões
-````scala
+````portugol
 # QuickSort
 quicksort(num: Lista[Inteiro]): Lista[Inteiro] =
   escolha num
