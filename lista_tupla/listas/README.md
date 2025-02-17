@@ -181,7 +181,7 @@ Em Potigol, listas de objetos são uma forma eficiente de gerenciar coleções d
 #### 1. **Definição do Tipo `Pessoa`**
 Primeiro, definimos a estrutura do objeto `Pessoa` com atributos e métodos:
 
-```potigol
+```portugol
 tipo Pessoa
   nome: Texto
   email: Texto
@@ -201,7 +201,7 @@ fim
 #### 2. **Criação da Lista de Objetos**
 Usamos um loop `para...gere` para ler dados e gerar a lista de objetos `Pessoa`:
 
-```potigol
+```scala
 pessoas = para i de 1 até 5 gere
   nome = leia_texto     # Lê o nome do terminal
   email = leia_texto    # Lê o email do terminal
@@ -218,7 +218,7 @@ fim
 #### 3. **Iteração e Formatação da Lista**
 Podemos iterar sobre a lista e exibir os dados formatados:
 
-```potigol
+```scala
 para p em pessoas faça
   escreva "{p.nome formato "%20s"}{p.email formato "%20s"}{p.idade formato "%3d"}"
 fim
@@ -242,19 +242,19 @@ fim
 Como as listas são imutáveis, qualquer operação retorna uma **nova lista**. Exemplos:
 
 ##### a) **Filtrar Pessoas Adultas**
-```potigol
+```scala
 adultos = pessoas.selecione(p => p.adulto())
 escreva "Adultos: {adultos.tamanho}"
 ```
 
 ##### b) **Mapear Emails**
-```potigol
+```scala
 emails = pessoas.mapeie(p => p.email)
 escreva emails  # ["joao@email.com", "maria@email.com", ...]
 ```
 
 ##### c) **Atualizar um Objeto na Lista**
-```potigol
+```scala
 var pessoas := ...
 # Altera a pessoa na posição 1
 pessoas[1] := Pessoa("Nome da Pessoa", "oemail@email.com", 2005)
