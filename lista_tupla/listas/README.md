@@ -210,7 +210,7 @@ pessoas = para i de 1 até 5 gere
 fim
 ```
 
-- **`para...gere`**: Gera uma lista imutável com 5 objetos `Pessoa`.
+- **`para...gere`**: Gera uma lista com 5 objetos `Pessoa`.
 - **`leia_texto`/`leia_inteiro`**: Funções para entrada de dados (simuladas ou reais, dependendo do contexto).
 
 ---
@@ -255,13 +255,14 @@ escreva emails  # ["joao@email.com", "maria@email.com", ...]
 
 ##### c) **Atualizar um Objeto na Lista**
 ```potigol
+var pessoas := ...
+# Altera a pessoa na posição 1
+pessoas[1] := Pessoa("Nome da Pessoa", "oemail@email.com", 2005)
 # Atualiza o email da pessoa na posição 2
-pessoas_atualizadas = pessoas.atualize(2, Pessoa(pessoas[2].nome, "novo_email@teste", pessoas[2].ano_nascimento))
+pessoas[2] := Pessoa(pessoas[2].nome, "novo_email@teste", pessoas[2].ano_nascimento)
 ```
 
 ---
-
-Este exemplo ilustra como Potigol combina orientação a objetos e programação funcional para manipular coleções de dados complexos de forma segura e elegante.
 
 ## Resumo de Características
 - **Imutabilidade**: Listas são imutáveis por padrão, garantindo segurança em operações funcionais .
