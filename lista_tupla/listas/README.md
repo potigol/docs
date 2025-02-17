@@ -172,6 +172,97 @@ Essa abordagem funcional torna Potigol uma linguagem robusta para manipulação 
 
 ---
 
+## 10. **Manipulação de Listas de Objetos em Potigol**
+
+Em Potigol, listas de objetos são uma forma eficiente de gerenciar coleções de dados complexos, combinando a imutabilidade das listas com a flexibilidade de tipos personalizados. Abaixo está um exemplo prático de como criar, manipular e iterar sobre listas de objetos, utilizando o tipo `Pessoa` definido pelo usuário:
+
+---
+
+#### 1. **Definição do Tipo `Pessoa`**
+Primeiro, definimos a estrutura do objeto `Pessoa` com atributos e métodos:
+
+```potigol
+tipo Pessoa
+  nome: Texto
+  email: Texto
+  ano_nascimento: Inteiro
+  idade() = 2025 - ano_nascimento
+  adulto() = idade >= 18
+fim
+```
+
+- **Atributos**: `nome`, `email`, `ano_nascimento`.
+- **Métodos**:
+  - `idade()`: Calcula a idade com base no ano atual (2025 no exemplo).
+  - `adulto()`: Retorna `verdadeiro` se a idade for maior ou igual a 18.
+
+---
+
+#### 2. **Criação da Lista de Objetos**
+Usamos um loop `para...gere` para ler dados e gerar a lista de objetos `Pessoa`:
+
+```potigol
+pessoas = para i de 1 até 5 gere
+  nome = leia_texto     # Lê o nome do terminal
+  email = leia_texto    # Lê o email do terminal
+  ano_nascimento = leia_inteiro  # Lê o ano de nascimento
+  Pessoa(nome, email, ano_nascimento)  # Cria um objeto Pessoa
+fim
+```
+
+- **`para...gere`**: Gera uma lista imutável com 5 objetos `Pessoa`.
+- **`leia_texto`/`leia_inteiro`**: Funções para entrada de dados (simuladas ou reais, dependendo do contexto).
+
+---
+
+#### 3. **Iteração e Formatação da Lista**
+Podemos iterar sobre a lista e exibir os dados formatados:
+
+```potigol
+para p em pessoas faça
+  escreva "{p.nome formato "%20s"}{p.email formato "%20s"}{p.idade formato "%3d"}"
+fim
+```
+
+- **`para...faça`**: Itera sobre cada objeto `p` na lista `pessoas`.
+- **`formato`**: Formata os valores para alinhamento:
+  - `%20s`: Alinha o texto em 20 caracteres.
+  - `%3d`: Alinha números inteiros em 3 dígitos.
+
+**Saída esperada** (exemplo):
+```
+             João        joao@email.com         25
+            Maria       maria@email.com         30
+             José        jose@email.com         42
+```
+
+---
+
+#### 4. **Operações Comuns com Listas de Objetos**
+Como as listas são imutáveis, qualquer operação retorna uma **nova lista**. Exemplos:
+
+##### a) **Filtrar Pessoas Adultas**
+```potigol
+adultos = pessoas.selecione(p => p.adulto())
+escreva "Adultos: {adultos.tamanho}"
+```
+
+##### b) **Mapear Emails**
+```potigol
+emails = pessoas.mapeie(p => p.email)
+escreva emails  # ["joao@email.com", "maria@email.com", ...]
+```
+
+##### c) **Atualizar um Objeto na Lista**
+```potigol
+# Atualiza o email da pessoa na posição 2
+pessoas_atualizadas = pessoas.atualize(2, Pessoa(pessoas[2].nome, "novo_email@teste", pessoas[2].ano_nascimento))
+```
+
+---
+
+Este exemplo ilustra como Potigol combina orientação a objetos e programação funcional para manipular coleções de dados complexos de forma segura e elegante.
+
 ## Resumo de Características
 - **Imutabilidade**: Listas são imutáveis por padrão, garantindo segurança em operações funcionais .
 - **Flexibilidade**: Suporta desde operações básicas até funções avançadas como mapeamento e redução.
