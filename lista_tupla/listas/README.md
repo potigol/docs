@@ -27,6 +27,8 @@ Em Potigol, **listas** são estruturas de dados fundamentais que permitem armaze
 
 ## 3. **Manipulação de Elementos**
 
+As listas são **imutáveis por padrão**, o que significa que qualquer operação de modificação resulta em uma **nova lista**, mantendo a original inalterada. Isso garante que as estruturas de dados sejam seguras e consistentes.
+
 Seja `a = [2, 4, 6, 8, 10]`
 
 - **Remoção**: `a.remova(4)` → `[2, 4, 6, 10]` (remove o elemento na posição 4)
@@ -36,7 +38,7 @@ Seja `a = [2, 4, 6, 8, 10]`
 
 ### Manipulação de Elementos em Listas Imutáveis
 
-As listas são **imutáveis por padrão**, o que significa que qualquer operação de modificação resulta em uma **nova lista**, mantendo a original inalterada. Isso garante que as estruturas de dados sejam seguras e consistentes. Abaixo estão exemplos de como manipular elementos em listas imutáveis:
+Abaixo estão exemplos de como manipular elementos em listas:
 
 #### Exemplo 1: Atualização de Elementos
 Quando você deseja modificar um elemento específico de uma lista, a operação não altera a lista original, mas cria uma **nova lista** com a modificação aplicada.
