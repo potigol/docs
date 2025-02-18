@@ -1,4 +1,6 @@
-remote_theme: rundocs/jekyll-rtd-theme
+remote_theme: potigol/jekyll-theme-rtd
+
+#remote_theme: rundocs/jekyll-rtd-theme
 
 title: Linguagem Potigol
 description: Documentação da Linguagem Potigol
