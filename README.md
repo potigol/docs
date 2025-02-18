@@ -22,13 +22,6 @@ Potigol é ...
 :point_up: Quer testar? É só clicar no botão e começar a programar. Ou 
 faça o *[Download](https://github.com/potigol/Potigol/releases)* e veja como *[Instalar](https://github.com/potigol/Potigol#como-usar)*
 
-## Exemplos
-[![Beecrowd](https://www.beecrowd.com.br/judge/img/5.0/logo-beecrowd.png)](https://potigol.github.io/beecrowd/)
-
-[![Soluções](https://img.shields.io/badge/Problemas%20Resolvidos-737-blue)]([https://github.com/potigol/beecrowd/commits/master](https://potigol.github.io/beecrowd/))
-
- - [Mais de 700 problemas de programação resolvidos na linguagem Potigol](https://potigol.github.io/beecrowd/) 
-
 
 ```portugol
 # Imperativo
@@ -71,10 +64,17 @@ escreva "{x} + {y} = {soma(x, y)}"
  * [Estruturas de Decisao](estruturas/decisao) se, escolha
  * [Estruturas de Repetição](estruturas/repeticao) para, enquanto
  * [Funções](funcoes)
- * [Tipos Compostos](lista_tupla) listas, tuplas
+ * Tipos Compostos: [Listas](lista_tupla/listas), [Tuplas](lista_tupla/listas)
  * [Classes](tipos)
  * [Programação Funcional](funcional) funções de alta ordem, imutabilidade, casamento de padrões
- * [Programação Orientada a Objetos](objetos) tipos (classes), tipos abstratos (classes abstratas e interfaces), atributos, métodos, herança  
+ * [Programação Orientada a Objetos](objetos) tipos (classes), tipos abstratos (classes abstratas e interfaces), atributos, métodos, herança
+
+## Exemplos
+[![Beecrowd](https://www.beecrowd.com.br/judge/img/5.0/logo-beecrowd.png)](https://potigol.github.io/beecrowd/)
+
+[![Soluções](https://img.shields.io/badge/Problemas%20Resolvidos-840-blue)]([https://github.com/potigol/beecrowd/commits/master](https://potigol.github.io/beecrowd/))
+
+ - [Mais de 700 problemas de programação resolvidos na linguagem Potigol](https://potigol.github.io/beecrowd/) 
 
 ## Contato
 
