@@ -74,7 +74,7 @@ escreva "{x} + {y} = {soma(x, y)}"
 
 [![Soluções](https://img.shields.io/badge/Problemas%20Resolvidos-840-blue)]([https://github.com/potigol/beecrowd/commits/master](https://potigol.github.io/beecrowd/))
 
- - [Mais de 700 problemas de programação resolvidos na linguagem Potigol](https://potigol.github.io/beecrowd/) 
+ - [Mais de 800 problemas de programação resolvidos na linguagem Potigol](https://potigol.github.io/beecrowd/) 
 
 ## Contato
 
