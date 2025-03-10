@@ -7,6 +7,7 @@ Em Potigol, **listas** são estruturas de dados fundamentais que permitem armaze
 - Oferece suporte a listas mutáveis para casos específicos, bem como estruturas multidimensionais, como matrizes e cubos, ampliando ainda mais suas possibilidades de uso.
 
 ## 1. **Criação de Listas**
+
 - **Lista literal**: `[2, 4, 6, 8, 10]`
 - **Adição de elementos**: `2 :: [4, 6, 8, 10]` → `[2, 4, 6, 8, 10]`  
 - **Lista preenchida**: `Lista(5, 0)` → `[0, 0, 0, 0, 0]`
@@ -15,6 +16,7 @@ Em Potigol, **listas** são estruturas de dados fundamentais que permitem armaze
 ---
 
 ## 2. **Operações Básicas**
+
 | Método/Operação | Exemplo | Resultado | Descrição |
 |-----------------|---------|-----------|-----------|
 | `.tamanho` | `[2,4,6,8,10].tamanho` | `5` | Retorna o número de elementos |
@@ -41,6 +43,7 @@ Seja `a = [2, 4, 6, 8, 10]`
 Abaixo estão exemplos de como manipular elementos em listas:
 
 #### Exemplo 1: Atualização de Elementos
+
 Quando você deseja modificar um elemento específico de uma lista, a operação não altera a lista original, mas cria uma **nova lista** com a modificação aplicada.
 
 ```potigol
@@ -71,15 +74,18 @@ a := a.atualize(3, 5)
 ```
 
 #### O que isso significa?
+
 - **`a[3] := 5`**: Essa sintaxe sugere que estamos "atualizando" o valor na posição 3 da lista `a` para `5`. No entanto, como as listas são imutáveis, essa operação não modifica a lista original. Em vez disso, ela cria uma **nova lista** com o valor atualizado e a atribui à variável `a`.
 - **`a := a.atualize(3, 5)`**: Essa é a forma explícita da operação. O método `.atualize` cria uma nova lista com o valor na posição 3 substituído por `5`, e o resultado é atribuído de volta à variável `a`.
 
 #### Por que usar açúcar sintático?
+
 1. **Simplicidade**: A sintaxe `a[3] := 5` é mais curta e intuitiva, especialmente para quem está acostumado com operações de atualização em listas mutáveis.
 2. **Legibilidade**: O código fica mais claro e fácil de entender, sem perder a semântica funcional.
 3. **Consistência**: Mantém a imutabilidade das listas, mas oferece uma forma conveniente de "simular" uma atualização.
 
 #### Exemplo 2: Atualização de Elementos usando `[ ] :=`
+
 ```potigol
 var a := [1, 2, 3, 4]
 a[3] := 5  # Açúcar sintático para a := a.atualize(3, 5)
@@ -91,6 +97,7 @@ Neste exemplo:
 - A lista original `[1, 2, 3, 4]` não é modificada, mas deixa de ser referenciada por `a`.
 
 #### Exemplo 3: Inserção de Elementos
+
 Para inserir um elemento em uma posição específica, a operação também gera uma nova lista.
 
 ```potigol
@@ -102,6 +109,7 @@ escreva b  # [1, 2, 3, 4] (a lista original permanece inalterada)
 ```
 
 #### Exemplo 4: Remoção de Elementos
+
 A remoção de um elemento também resulta em uma nova lista, sem afetar a original.
 
 ```potigol
@@ -113,6 +121,7 @@ escreva b  # [1, 2, 3, 4] (a lista original permanece inalterada)
 ```
 
 #### Exemplo 5: Concatenação de Listas
+
 A concatenação de listas também cria uma nova lista, sem modificar as originais.
 
 ```potigol
@@ -129,6 +138,7 @@ Essa abordagem funcional torna Potigol uma linguagem robusta para manipulação 
 ---
 
 ## 4. **Transformação de Listas**
+
 | Método | Exemplo | Resultado | Descrição |
 |--------|---------|-----------|-----------|
 | `.inverta` | `[2,4,6,8,10].inverta` | `[10,8,6,4,2]` | Inverte a ordem |
@@ -139,6 +149,7 @@ Essa abordagem funcional torna Potigol uma linguagem robusta para manipulação 
 ---
 
 ## 5. **Combinação de Listas**
+
 - **Concatenação**: `[2,4,6] + [8,10]` → `[2,4,6,8,10]`
 - **Divisão**: `[2,4,6,8,10].descarte(2)` → `[6,8,10]` (remove os primeiros 2 elementos)
 - **Seleção**: `[2,4,6,8,10].pegue(2)` → `[2,4]` (pega os primeiros 2 elementos) 
@@ -146,6 +157,7 @@ Essa abordagem funcional torna Potigol uma linguagem robusta para manipulação 
 ---
 
 ## 6. **Funções de Alta Ordem**
+
 | Método | Exemplo | Resultado | Descrição |
 |--------|---------|-----------|-----------|
 | `.selecione` | `[2,4,6,8,10].selecione(n => n mod 4 == 0)` | `[4,8]` | Filtra elementos que satisfazem a condição |
@@ -155,6 +167,7 @@ Essa abordagem funcional torna Potigol uma linguagem robusta para manipulação 
 ---
 
 ## 7. **Matrizes e Cubos**
+
 - **Matriz 2D**: `a = [[1,2], [3,4]]`  
   - Acesso: `a[2][1]` → `3`  
 - **Cubo 3D**: `Cubo.imutável(2,2,2,"-")` → Estrutura 2x2x2 preenchida com `"-"` 
@@ -162,6 +175,7 @@ Essa abordagem funcional torna Potigol uma linguagem robusta para manipulação 
 ---
 
 ## 8. **Listas Mutáveis**
+
 - Criação: `a = Lista.mutável(5, 0)` → `[0,0,0,0,0].mutável`  
 - Modificação: `a[3] := 5` → `[0,0,5,0,0]`  
   *(Obs: Potigol prioriza imutabilidade, mas oferece essa opção para casos específicos)* 
@@ -169,6 +183,7 @@ Essa abordagem funcional torna Potigol uma linguagem robusta para manipulação 
 ---
 
 ## 9. **Casos Especiais**
+
 - **Divisão condicional**: `[2,2,3,3,3,6,5,6].divida_quando((a,b) => a <> b)` → `[[2,2],[3,3,3],[6],[5],[6]]`  
 - **Ordenação por critério**: `[[1], [10,10], ...].ordene(_.tamanho)` → Ordena listas pelo tamanho 
 
@@ -181,6 +196,7 @@ Em Potigol, listas de objetos são uma forma eficiente de gerenciar coleções d
 ---
 
 #### 1. **Definição do Tipo `Pessoa`**
+
 Primeiro, definimos a estrutura do objeto `Pessoa` com atributos e métodos:
 
 ```portugol
@@ -201,6 +217,7 @@ fim
 ---
 
 #### 2. **Criação da Lista de Objetos**
+
 Usamos um loop `para...gere` para ler dados e gerar a lista de objetos `Pessoa`:
 
 ```scala
@@ -218,6 +235,7 @@ fim
 ---
 
 #### 3. **Iteração e Formatação da Lista**
+
 Podemos iterar sobre a lista e exibir os dados formatados:
 
 ```scala
@@ -241,15 +259,18 @@ fim
 ---
 
 #### 4. **Operações Comuns com Listas de Objetos**
+
 Como as listas são imutáveis, qualquer operação retorna uma **nova lista**. Exemplos:
 
 ##### a) **Filtrar Pessoas Adultas**
+
 ```scala
-adultos = pessoas.selecione(p => p.adulto())
+adultos = pessoas.selecione(p => p.adulto)
 escreva "Adultos: {adultos.tamanho}"
 ```
 
 ##### b) **Mapear Emails**
+
 ```scala
 emails = pessoas.mapeie(p => p.email)
 escreva emails  # ["joao@email.com", "maria@email.com", ...]
@@ -257,6 +278,7 @@ escreva emails  # ["joao@email.com", "maria@email.com", ...]
 
 ##### c) **Atualizar um Objeto na Lista**
 ```scala
+
 var pessoas := ...
 # Altera a pessoa na posição 1
 pessoas[1] := Pessoa("Nome da Pessoa", "oemail@email.com", 2005)
@@ -267,6 +289,7 @@ pessoas[2] := Pessoa(pessoas[2].nome, "novo_email@teste", pessoas[2].ano_nascime
 ---
 
 ## Resumo de Características
+
 - **Imutabilidade**: Listas são imutáveis por padrão, garantindo segurança em operações funcionais .
 - **Flexibilidade**: Suporta desde operações básicas até funções avançadas como mapeamento e redução.
 - **Sintaxe intuitiva**: Palavras-chave em português facilitam o aprendizado .
@@ -275,8 +298,8 @@ pessoas[2] := Pessoa(pessoas[2].nome, "novo_email@teste", pessoas[2].ano_nascime
 
 ---
 
-
 ### Sintaxe
+
 ````scala
 [2, 4, 6, 8, 10]                         # lista literal
 2 :: [4, 6, 8, 10]                       # [2, 4, 6, 8, 10]
