@@ -240,7 +240,9 @@ Podemos iterar sobre a lista e exibir os dados formatados:
 
 ```scala
 para p em pessoas faça
-  escreva "{p.nome formato "%20s"}{p.email formato "%20s"}{p.idade formato "%3d"}"
+  imprima p.nome  formato "%20s"
+  imprima p.email formato "%20s"
+  escreva p.idade formato "%3d"
 fim
 ```
 
