@@ -58,32 +58,38 @@ markdown_extensions:
   - md_in_html
 
 nav:
-  - Início: 
-    - Potigol: index.md
-    - Instalação: basico/instalacao.md
+  - Início: index.md
   - Referência:
-    - Referência: index.md
+ #   - Referência: basico/
     - Básico:
-      - Primeiros Passos: basico/primeiros_passos.md
       - Entrada e Saída: basico/entrada_saida.md
+      - Primeiros Passos: basico/primeiros_passos.md
       - Variáveis: basico/variaveis.md
       - Tipos Básicos: basico/tipos_basicos.md
-      - Números e Textos: basico/numeros_textos/
-      - Matemática: matematica.md
+      - Números: basico/numeros_textos/numeros.md
+      - Textos: basico/numeros_textos/texto.md
+      - Matemática: matematica/matematica.md
     - Estruturas:
-      - Decisão: estruturas/decisao/
-      - Repetição: estruturas/repeticao/
-    - Funções: funcoes.md
+      - Estruturas: estruturas/README.md
+      - Decisão: 
+        - Estruturas de Decisão: estruturas/decisao/README.md
+        - Se: estruturas/decisao/se.md
+        - Escolha: estruturas/decisao/escolha.md
+      - Repetição: 
+        - Estruturas de Repetição: estruturas/repeticao/README.md
+        - Para: estruturas/repeticao/para.md
+        - Enquanto: estruturas/repeticao/enquanto.md
+    - Funções: funcoes/README.md
     - Tipos Compostos:
-      - Listas: listas.md
-      - Tuplas: tuplas.md
-      - Registros: registro.md
-    - Programação Funcional: funcional
-    - Orientação a Objetos: objetos
-  - Instalação: basico/instalacao.md
-  - Extras:
-    - Jerimum: '../jerimum'
-    - Beecrowd: '../beecrowd'
+      - Tipos Compostos: tipos_compostos/README.md
+      - Listas: tipos_compostos/listas.md
+      - Tuplas: tipos_compostos/tuplas.md
+      - Registros: tipos_compostos/registros.md
+    - Programação Funcional: funcional/README.md
+    - Orientação a Objetos: objetos/README.md
+  - Instalação: instalacao.md
+  - Extras: extras.md
+
 
 # theme:
 #   features:

@@ -1,2 +1,0 @@
-# Números e Textos
-

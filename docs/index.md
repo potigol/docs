@@ -11,7 +11,7 @@
 
 ---
 
-## :material-feature-search-outline: Recursos Principais
+## :material-feature-search-outline: Principais Recursos
 
 <div class="grid cards" markdown>
 
@@ -81,21 +81,22 @@
 
 1. **Básico**
     - [Instalação](instalacao.md)
-    - [Primeiro Programa](basico.md)
-    - [Variáveis e Tipos](tipos.md)
+    - [Primeiros Passos](basico/primeiros_passos.md)
+    - [Variáveis](basico/variaveis.md)
+    - [Tipos Básicos](basico/tipos_basicos.md)
 
 2. **Estruturas**
-    - [Condicionais](estruturas/decisao.md)
-    - [Repetição](estruturas/repeticao.md)
-    - [Funções](funcoes.md)
+    - [Condicionais](estruturas/decisao/README.md)
+    - [Repetição](estruturas/repeticao/README.md)
+    - [Funções](funcoes/README.md)
 
 3. **Paradigmas**
-    - [Programação Funcional](funcional.md)
-    - [Orientação a Objetos](objetos.md)
+    - [Programação Funcional](funcional/README.md)
+    - [Orientação a Objetos](objetos/README.md)
 
 4. **Avançado**
-    - [Pattern Matching](funcional/casamento.md)
-    - [Funções de Alta Ordem](funcional/altaordem.md)
+    - [Pattern Matching](funcional/README.md)
+    - [Funções de Alta Ordem](funcional/README.md)
 
 
 ---
