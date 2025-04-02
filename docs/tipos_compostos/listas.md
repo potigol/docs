@@ -1,6 +1,7 @@
 # Listas
 
 Em Potigol, **listas** são estruturas de dados fundamentais que permitem armazenar e manipular coleções ordenadas de elementos.
+
 - São imutáveis por padrão, o que significa que, uma vez criadas, não podem ser alteradas diretamente, garantindo segurança e consistência em operações funcionais.
 - São altamente versáteis, suportando desde operações básicas, como acesso a elementos e verificação de tamanho, até transformações avançadas, como mapeamento, filtragem e redução.
 - Sintaxe intuitiva e alinhada ao paradigma funcional, as listas são uma ferramenta poderosa para lidar com dados de forma eficiente e expressiva.
