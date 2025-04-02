@@ -86,7 +86,7 @@
 
 2. **Estruturas**
     - [Condicionais](estruturas/decisao.md)
-    - [Loops](estruturas/repeticao.md)
+    - [Repetição](estruturas/repeticao.md)
     - [Funções](funcoes.md)
 
 3. **Paradigmas**
@@ -94,9 +94,9 @@
     - [Orientação a Objetos](objetos.md)
 
 4. **Avançado**
-    - [Pattern Matching](casamento.md)
-    - [Genéricos](genericos.md)
-    - [Metaprogramação](meta.md)
+    - [Pattern Matching](funcional/casamento.md)
+    - [Funções de Alta Ordem](funcional/altaordem.md)
+
 
 ---
 

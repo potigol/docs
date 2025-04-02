@@ -57,6 +57,34 @@ markdown_extensions:
   - attr_list
   - md_in_html
 
+nav:
+  - Início: 
+    - Potigol: index.md
+    - Instalação: basico/instalacao.md
+  - Referência:
+    - Referência: index.md
+    - Básico:
+      - Primeiros Passos: basico/primeiros_passos.md
+      - Entrada e Saída: basico/entrada_saida.md
+      - Variáveis: basico/variaveis.md
+      - Tipos Básicos: basico/tipos_basicos.md
+      - Números e Textos: basico/numeros_textos/
+      - Matemática: matematica.md
+    - Estruturas:
+      - Decisão: estruturas/decisao/
+      - Repetição: estruturas/repeticao/
+    - Funções: funcoes.md
+    - Tipos Compostos:
+      - Listas: listas.md
+      - Tuplas: tuplas.md
+      - Registros: registro.md
+    - Programação Funcional: funcional
+    - Orientação a Objetos: objetos
+  - Instalação: basico/instalacao.md
+  - Extras:
+    - Jerimum: '../jerimum'
+    - Beecrowd: '../beecrowd'
+
 # theme:
 #   features:
 #     - navigation.footer
