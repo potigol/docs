@@ -58,12 +58,13 @@ markdown_extensions:
   - md_in_html
 
 nav:
-  - Início: index.md
+  - Início:
+    - Potigol: index.md
+    - Primeiros Passos: basico/primeiros_passos.md
   - Referência:
  #   - Referência: basico/
     - Básico:
       - Entrada e Saída: basico/entrada_saida.md
-      - Primeiros Passos: basico/primeiros_passos.md
       - Variáveis: basico/variaveis.md
       - Tipos Básicos: basico/tipos_basicos.md
       - Números: basico/numeros_textos/numeros.md
