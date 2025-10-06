@@ -17,7 +17,7 @@ Potigol é ...
  Uma linguagem moderna (funcional) para aprender a programar.
 ```
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/potigol/potigol-image)
+**IDE online**👉 [![Execute direto no GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/potigol/potigol-codespace?quickstart=1)
 
 :point_up: Quer testar? É só clicar no botão e começar a programar. Ou 
 faça o *[Download](https://github.com/potigol/Potigol/releases)* e veja como *[Instalar](https://github.com/potigol/Potigol#como-usar)*
